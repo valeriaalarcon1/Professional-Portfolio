@@ -23,16 +23,16 @@ nav {
     padding-right: 50px;
     position: fixed;
     transition: 500ms ease-in-out;
-    background-color: rgb(21, 21, 21);
+    background-color: rgba(21, 21, 21);
 }
 
 h1 {
     display: inline-block;
     font-weight: lighter;
     color: salmon;
-    background-color: rgb(21, 21, 21);
     letter-spacing: 3px;
     font-size: 32px;
+    background-color: rgba(21, 21, 21);
 }
 
 
@@ -42,8 +42,8 @@ nav ul a {
     list-style: none;
     text-decoration: none;
     color: white;
-    background-color: rgb(21, 21, 21);
     font-weight: bolder;
+    background-color: rgba(21, 21, 21);
 }
 
 nav ul a:hover {
@@ -73,7 +73,7 @@ main {
 
 .tabs h2 {
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 450px;
 }
 
 /* Content */
@@ -99,28 +99,83 @@ aside {
     padding-bottom: 150px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.work h2 {
-    display: flex;
-    text-align: center;
+#app1 {
+    display: block;
+    width: 100%;
+    height: 350px;
+    background-image: url("file:///Users/valeriaalarcon/Downloads/App1.jpg");
+    background-size: cover;
 }
+
+#app2 {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    background-image: url("file:///Users/valeriaalarcon/Downloads/App2.jpg");
+    background-size: cover;
+}
+
+#app3 {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    background-image: url("file:///Users/valeriaalarcon/Downloads/App3.jpg");
+    background-size: cover;
+}
+
+h3 {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.405);
+    font-weight: lighter;
+    font-size: 15pt
+}
+
+
+#app1, #app2, #app3, h3:hover {
+    color: salmon;
+    font-weight: bold;
+    background-color: rgba(165, 165, 165, 0.35);
+}
+
 
 /* CONTACT */
 .contact {
-    padding-top: 200px;
-    padding-bottom: 150px;
+    padding: 150px 200px 0px 200px;
+}
+
+.contact ul {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.contact ul li {
+    color: white;
+    font-size: 13pt;
+}
+
+.contact ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+}
+
+.contact ul a:hover {
+    text-decoration: none;
+    color: salmon
 }
 
 
 /* Footer */
 footer {
-
+    margin-bottom: 100px;
+    color: salmon;
+    text-align: center;
 }
-
 
 
