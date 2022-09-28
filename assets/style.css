@@ -1,0 +1,99 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(50, 50, 50);
+}
+
+/* Header & Navigation Bar */
+header {
+    height: 200px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 50px;
+    position: fixed;
+    transition: 500ms ease-in-out;
+    background-color: rgb(21, 21, 21);
+}
+
+h1 {
+    display: inline-block;
+    font-weight: lighter;
+    color: salmon;
+    background-color: rgb(21, 21, 21);
+    letter-spacing: 3px;
+    font-size: large;
+}
+
+
+nav ul a {
+    display: inline;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(21, 21, 21);
+    font-weight: bolder;
+}
+
+nav ul a:hover {
+    color: salmon;
+    transition: .3s;
+}
+
+
+/* Main Page */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ABOUT */
+.about {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about h2 {
+
+}
+
+/* WORK */
+.work {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* CONTACT */
+.contact {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Footer */
+footer {
+
+}
+
+
+
