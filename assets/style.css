@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: Helvetica;
     background-color: rgb(50, 50, 50);
+    scroll-behavior: smooth;
 }
 
 /* Header & Navigation Bar */
